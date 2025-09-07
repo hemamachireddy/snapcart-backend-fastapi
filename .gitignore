@@ -1,0 +1,21 @@
+﻿# Python / FastAPI
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+/dist/
+/build/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Env & secrets
+.env
+.env.*
+.DS_Store
