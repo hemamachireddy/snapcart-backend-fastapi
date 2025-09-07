@@ -1,21 +1,33 @@
-﻿# Python / FastAPI
-.venv/
-__pycache__/
-*.py[cod]
+﻿# Node / Vite
+node_modules/
+dist/
+.vite/
 *.log
-*.sqlite3
-/dist/
-/build/
-.mypy_cache/
-.pytest_cache/
-.coverage
-htmlcov/
+
+# Env
+.env
+.env.*
+# Local
+.DS_Store
 
 # IDE
 .vscode/
 .idea/
 
-# Env & secrets
-.env
-.env.*
-.DS_Store
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+.venv/
